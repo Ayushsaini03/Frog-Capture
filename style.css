@@ -1,0 +1,62 @@
+body {
+    background: rgb(10, 10, 10);
+    color: #fff;
+    font-family: sans-serif;
+  }
+  
+  .scores-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .total-score {
+    margin-right: 20px;
+    margin: 20px;
+    text-align: center;
+    background: #ccc;
+    padding: 20px;
+    color: #000;
+  }
+  
+  .time {
+    margin-right: 20px;
+    margin: 20px;
+    text-align: center;
+    background: #ccc;
+    padding: 20px;
+    color: #000;
+  }
+  
+  .grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+    margin-top: 2rem;
+    padding: 20px;
+  }
+
+   .square {
+    height: 190px;
+    width: 250px;
+    margin: 10px;
+    background: rgb(61, 61, 61);
+  } 
+  
+  /* JavaScript */
+  .frog {
+    background-image: url("https://icon2.cleanpng.com/20240323/yqq/transparent-cell-phone-frog-with-watch-talking-on-phone65fec5b5880a04.39656784.webp");
+    background-position: center;
+    background-size: cover;
+  }
+
